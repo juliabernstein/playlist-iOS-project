@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+
+class Song {
+    
+    var songName: String
+    var artistName: String
+    var albumName: String
+    var albumImageName: String
+    
+    init(songName: String, artistName: String, albumName: String, albumImageName: String) {
+        self.songName = songName
+        self.artistName = artistName
+        self.albumName = albumName
+        self.albumImageName = albumImageName
+    }
+    
+    
+    
+}
